@@ -1,0 +1,259 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+    background-color:#F8F4E3;
+}
+
+
+/*Para el contenedor del título*/
+
+.primerTitulo {
+    display: flex;
+    justify-content: center;
+    background-color: #364E68; 
+    color: white;
+    padding-top:40px;
+    padding-bottom:20px;
+    width: 100%;
+    border:solid;
+}
+
+/*Para el estilo del título*/
+
+.primerTitulo h1 {
+    font-family:'Oswald', sans-serif;
+    font-size: 2.5em;
+    margin bottom:30px;
+    font-family: 'Oswald', sans-serif;
+    color:white;
+}
+
+.seccionPrincipal h2 {
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    color: #000000;
+    font-size: 30px;
+}
+
+.bloquePatrimonio h3 {
+    font-family: 'Oswald', sans-serif;
+    color: #49704F;
+}
+
+/*Para el estilo y ajuste de las imagenes*/
+
+.primerTitulo img {
+    width: 60px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.seccionPrincipal {
+    width: 100%; 
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/*Ajustar fotos y textos a la página*/
+
+.contenedorTarjetas {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap; 
+    padding: 0 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+}
+
+.botonTarjeta {
+    background-color: #49704F; 
+    color: white;
+    text-decoration: none;
+    padding: 15px 30px; 
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 1.1em;
+    display: inline-block; 
+    border: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-top: auto;
+    align-self: flex-start;
+    margin-bottom: 0;
+}
+
+.cuerpoTarjetaFlex {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.seccionZoo {
+    width: 100%;
+    padding: 40px 20px;
+    background-color: #e8f5e9;
+    text-align: center;
+}
+
+.seccionZoo h2 {
+    font-size: 30px;
+    color: #000000;
+    margin-top: 0px;
+}
+
+.galeriaZoo {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 30px;
+    padding: 0 20px;
+}
+
+.fotoGaleria {
+    width: 30%; 
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(242, 20, 20, 0.1);
+}
+
+.seccionAerodromo {
+    width: 100%;
+    padding: 40px 20px;
+    background-color: #c2ddeb;
+    text-align: center;
+}
+
+.seccionAerodromo h2 {
+    font-size: 30px;
+    color: #000000;
+    margin-top: 0px;
+}
+
+.galeriaSkydive {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 30px;
+    padding: 0 20px;
+}
+
+.fotoSkydive {
+    width: 30%; 
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(242, 20, 20, 0.1);
+}
+
+.botonCta {
+    background-color: #49704F; 
+    color: white;
+    text-decoration: none;
+    padding: 15px 30px; 
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 1.1em;
+    display: inline-block; 
+    border: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+.botonCta:hover {
+    background-color: #3B5A40; 
+}
+
+.enlaceAccion {
+    text-align: center; 
+    margin-top: 40px; 
+    margin-bottom: 40px;
+}
+
+.bloquePatrimonio {
+    width: 30%;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: left;
+    width: 30%; 
+    margin: 15px 1%;
+    background-color: #FFFFFF;
+    border: 1px solid #E0E0E0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+    display: flex;
+    flex-direction: column;
+    min-height: 500px;
+}
+
+
+
+.imagenPatrimonio {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+
+ /*Estilo para el formulario*/
+
+.seccionFormulario {
+    background-color: antiquewhite;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.seccionFormulario h2 {
+    font-size: 30px;
+    color: #000000;
+    margin-top: 0px;
+}
+
+.formulario {
+    max-width: 600px;
+    margin: 0 auto;
+    background: white;
+    padding: 40px;
+    border-radius: 10px;
+    text-align: left;
+}
+
+/*Estilo de etiquietas de entrada*/
+
+.campo {
+    margin-bottom: 20px;
+}
+
+.formulario label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color:black;
+}
+
+.formulario input[type="text"],
+.formulario input[type="email"],
+.formulario textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid rgb(203, 203, 203);
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.formulario textarea {
+    resize: vertical;
+}
+
+/*Estilo del boton de envio*/
+
+.botonEnvio {
+    background-color: rgb(0, 116, 0);
+    color: white;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.1em;
+    margin-top: 10px; 
+}
+
+.botonEnvio:hover {
+    background-color: rgb(0, 116, 0); 
+}
