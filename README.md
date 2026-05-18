@@ -14,5 +14,15 @@ Este repositorio contiene una recopilación de los proyectos, aplicaciones y pr�
 * **Tecnologías:** HTML5, CSS3 y JavaScript (Vanilla ES6).
 * **Características:** Manipulación avanzada y generación dinámica del DOM desde JS, validación de formularios personalizada, delegación de eventos y uso de atributos `data-*` para filtros cruzados.
 
+### 3. ✅ Validación Avanzada de Formularios
+* **Descripción:** Formulario de registro con validación estricta de datos en el lado del cliente antes de su envío.
+* **Tecnologías:** HTML5, CSS3 y JavaScript.
+* **Características:** Uso de expresiones regulares (RegEx) para validar formatos de correo y teléfono, cálculo dinámico de fechas (mayoría de edad), prevención de envío por defecto (`preventDefault`) y feedback visual de errores en el DOM.
+
+### 4. ⚙️ Sistema de Gestión Académica (Lógica JS / Node.js)
+* **Descripción:** Programa backend de consola para la gestión de un sistema de estudiantes, notas y cálculos estadísticos.
+* **Tecnologías:** JavaScript (ES6+), Node.js.
+* **Características:** Implementación de lógica pura sin interfaz gráfica. Destaca el uso de métodos avanzados de arrays (`map`, `filter`, `forEach`), recursividad, manejo estructurado de errores (`try/catch/finally`), gestión del contexto (`this`) y análisis de ámbito de variables (`let` vs `var`).
+
 ---
 *Perfil en constante actualización con las prácticas y módulos del ciclo.*
