@@ -1,17 +1,18 @@
-# 🌍 Web Turística de Lillo
+# 💻 Prácticas de Desarrollo de Aplicaciones Web (DAW)
 
-Página web estática desarrollada como proyecto práctico para el ciclo de Desarrollo de Aplicaciones Web (DAW). El objetivo de este proyecto es aplicar los conocimientos de maquetación y diseño web, promocionando los lugares de interés y las actividades de Lillo.
+Este repositorio contiene una recopilación de los proyectos, aplicaciones y prácticas evaluables realizadas durante el ciclo formativo. El objetivo es mostrar la evolución técnica en tecnologías frontend y backend.
 
-## 🚀 Tecnologías utilizadas
-* **HTML5:** Estructura y semántica del contenido.
-* **CSS3:** Diseño, estilos y presentación visual.
+## 📂 Índice de Proyectos Destacados
 
-## 📂 Estructura del Proyecto
-El proyecto cuenta con la siguiente organización:
-* `Laguna.html` / `puebloLillo.html`: Archivos principales con la estructura web.
-* `lagunaEstilo.css` / `pueblolillo.css`: Hojas de estilo personalizadas.
-* `/imágenes`: Carpeta con todos los recursos gráficos y fotografías del municipio.
+### 1. 🌍 Web Turística de Lillo
+* **Descripción:** Página web estática dedicada a la promoción turística, lugares de interés y actividades del municipio.
+* **Tecnologías:** HTML5 y CSS3.
+* **Características:** Maquetación limpia, diseño estructurado y organización profesional de recursos visuales.
 
-## 💡 Características
-* Maquetación limpia y estructurada.
-* Separación de archivos de código y recursos visuales para un entorno de desarrollo ordenado.
+### 2. ⚡ Gestor Dinámico de Eventos
+* **Descripción:** Aplicación web interactiva para la creación, eliminación, filtrado y gestión de eventos en tiempo real.
+* **Tecnologías:** HTML5, CSS3 y JavaScript (Vanilla ES6).
+* **Características:** Manipulación avanzada y generación dinámica del DOM desde JS, validación de formularios personalizada, delegación de eventos y uso de atributos `data-*` para filtros cruzados.
+
+---
+*Perfil en constante actualización con las prácticas y módulos del ciclo.*
