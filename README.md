@@ -35,7 +35,23 @@ Este repositorio recoge mis proyectos prácticos y evaluables, mostrando mi evol
 
 ---
 
-## 📂 Proyectos
+### 🛠️ Proyectos Destacados
+*Selección de proyectos que demuestran mi capacidad para resolver problemas reales.*
+
+| Proyecto | Descripción | Tecnologías |
+| :--- | :--- | :--- |
+| **[Gestor de Eventos](ruta-a-la-carpeta)** | App interactiva con manipulación de DOM en tiempo real. | JS, HTML, CSS |
+| **[Space Invaders](ruta-a-la-carpeta)** | Clon arcade con lógica de colisiones y estados. | Python, Pygame |
+| **[Web Lillo](ruta-a-la-carpeta)** | Maquetación web con enfoque en experiencia de usuario. | HTML5, CSS3 |
+
+---
+
+### 📂 Repositorio de Prácticas (DAW)
+*Recopilación de ejercicios académicos realizados durante mi formación:*
+
+* **Bases de Datos & Backend:** SQL (DDL/DML/DCL), Modelado NoSQL (JSON), Java (MVC, POO, Colecciones).
+* **Desarrollo Frontend:** Validación de formularios, JS Avanzado.
+* **Automatización:** Scripts de análisis de redes y ciberseguridad (Bash).
 
 ### 🌐 Frontend
 | Proyecto | Descripción | Tecnologías |
