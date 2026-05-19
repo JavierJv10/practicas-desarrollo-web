@@ -29,6 +29,12 @@ Este repositorio recoge mis proyectos prácticos y evaluables, mostrando mi evol
 
 ---
 
+### 🎓 Formación Académica
+* **Técnico Superior en Desarrollo de Aplicaciones Web (DAW)** | *En curso (2º año)*
+* **TSEAS (Técnico Superior en Enseñanza y Animación Sociodeportiva)**
+
+---
+
 ## 📂 Proyectos
 
 ### 🌐 Frontend
