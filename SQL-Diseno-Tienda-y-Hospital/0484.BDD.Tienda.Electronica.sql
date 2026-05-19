@@ -1,0 +1,70 @@
+CREATE TABLE IF NOT EXISTS `Marcas` (
+	`pk_MarcaId` INTEGER NOT NULL AUTO_INCREMENT UNIQUE,
+	`NombreMarca` VARCHAR(70) NOT NULL,
+	PRIMARY KEY(`pk_MarcaId`)
+);
+
+
+CREATE TABLE IF NOT EXISTS `Modelos` (
+	`pk_ModeloId` INTEGER NOT NULL AUTO_INCREMENT UNIQUE,
+	`NombreModelo` VARCHAR(70) NOT NULL,
+	`fk_MarcaId` INTEGER NOT NULL,
+	PRIMARY KEY(`pk_ModeloId`)
+);
+
+
+CREATE TABLE IF NOT EXISTS `Productos` (
+	`pk_ProductoId` INTEGER NOT NULL AUTO_INCREMENT UNIQUE,
+	`NombreProducto` VARCHAR(100) NOT NULL,
+	`DescProducto` VARCHAR(255) NOT NULL,
+	`Precio` DECIMAL NOT NULL,
+	`fk_ModeloId` INTEGER,
+	PRIMARY KEY(`pk_ProductoId`)
+);
+
+
+CREATE TABLE IF NOT EXISTS `Clientes` (
+	`pk_ClienteId` INTEGER NOT NULL AUTO_INCREMENT UNIQUE,
+	`NombreCliente` VARCHAR(80) NOT NULL,
+	`Apellido1Cliente` VARCHAR(80) NOT NULL,
+	`Apellido2Cliente` VARCHAR(80),
+	`Email` VARCHAR(120) NOT NULL,
+	`Telefono` VARCHAR(30) NOT NULL,
+	`Direccion` VARCHAR(255) NOT NULL,
+	PRIMARY KEY(`pk_ClienteId`)
+);
+
+
+CREATE TABLE IF NOT EXISTS `Pedidos` (
+	`pk_PedidoId` INTEGER NOT NULL AUTO_INCREMENT UNIQUE,
+	`fk_ClienteId` INTEGER NOT NULL,
+	`FechaPedido` DATE NOT NULL,
+	`Estado` VARCHAR(30) NOT NULL,
+	PRIMARY KEY(`pk_PedidoId`)
+);
+
+
+CREATE TABLE IF NOT EXISTS `PedidosDetalle` (
+	`pk_PedidosDetalleId` INTEGER NOT NULL AUTO_INCREMENT UNIQUE,
+	`fk_PedidoId` INTEGER NOT NULL,
+	`fk_ProductoId` INTEGER NOT NULL,
+	`Cantidad` SMALLINT NOT NULL,
+	PRIMARY KEY(`pk_PedidosDetalleId`)
+);
+
+
+ALTER TABLE `Marcas`
+ADD FOREIGN KEY(`pk_MarcaId`) REFERENCES `Modelos`(`fk_MarcaId`)
+ON UPDATE NO ACTION ON DELETE NO ACTION;
+ALTER TABLE `Modelos`
+ADD FOREIGN KEY(`pk_ModeloId`) REFERENCES `Productos`(`fk_ModeloId`)
+ON UPDATE NO ACTION ON DELETE NO ACTION;
+ALTER TABLE `Clientes`
+ADD FOREIGN KEY(`pk_ClienteId`) REFERENCES `Pedidos`(`fk_ClienteId`)
+ON UPDATE NO ACTION ON DELETE NO ACTION;
+ALTER TABLE `Pedidos`
+ADD FOREIGN KEY(`pk_PedidoId`) REFERENCES `PedidosDetalle`(`fk_PedidoId`)
+ON UPDATE NO ACTION ON DELETE NO ACTION;
+ALTER TABLE `Productos`
+ADD FOREIGN KEY(`pk_ProductoId`) REFERENCES `PedidosDetalle`(`fk_ProductoId`)
+ON UPDATE NO ACTION ON DELETE NO ACTION;
