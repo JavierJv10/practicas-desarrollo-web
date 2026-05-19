@@ -42,7 +42,7 @@ Este repositorio recoge mis proyectos prácticos y evaluables, mostrando mi evol
 | :--- | :--- | :--- |
 | **[Gestor de Eventos](https://github.com/JavierJv10/practicas-desarrollo-web/tree/main/gestor-eventos)** | App interactiva con manipulación de DOM en tiempo real. | JS, HTML, CSS |
 | **[Space Invaders](https://github.com/JavierJv10/practicas-desarrollo-web/tree/main/Python-Space-Invaders)** | Clon arcade con lógica de colisiones y estados. | Python, Pygame |
-| **[Web Lillo](ruta-a-la-carpeta)** | Maquetación web con enfoque en experiencia de usuario. | HTML5, CSS3 |
+| **[Web Lillo](https://github.com/JavierJv10/practicas-desarrollo-web/tree/main/Web-Lillo)** | Maquetación web con enfoque en experiencia de usuario. | HTML5, CSS3 |
 
 ---
 
