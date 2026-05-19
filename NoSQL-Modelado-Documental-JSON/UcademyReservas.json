@@ -1,0 +1,504 @@
+{
+  "tables": [
+    {
+      "id": "Qbq4rdjv_3bl89ITGipMx",
+      "name": "Seasons",
+      "x": -82.26152070056466,
+      "y": -126.16880740880887,
+      "locked": false,
+      "fields": [
+        {
+          "name": "pk_SeasonId",
+          "type": "INTEGER",
+          "default": "",
+          "check": "",
+          "primary": true,
+          "unique": true,
+          "notNull": true,
+          "increment": true,
+          "comment": "",
+          "id": "R1NbEARK4dL_ScHMgX3wt"
+        },
+        {
+          "id": "UG97HQQWILYV4i4Txb8of",
+          "name": "SeasonName",
+          "type": "VARCHAR",
+          "default": "",
+          "check": "",
+          "primary": false,
+          "unique": false,
+          "notNull": true,
+          "increment": false,
+          "comment": "",
+          "size": 50
+        }
+      ],
+      "comment": "",
+      "indices": [],
+      "color": "#175e7a"
+    },
+    {
+      "id": "x8nnjEytKzQCUvhS0wjhe",
+      "name": "PlanesTarifarios",
+      "x": -74.85131636698583,
+      "y": 92.26244529622737,
+      "locked": false,
+      "fields": [
+        {
+          "name": "pk_PlanTarifarioId",
+          "type": "INTEGER",
+          "default": "",
+          "check": "",
+          "primary": true,
+          "unique": true,
+          "notNull": true,
+          "increment": true,
+          "comment": "",
+          "id": "Gf4wt_NieFbD1v3j9t3UW"
+        },
+        {
+          "id": "HkVB_bXXBpjR1iJDII1P-",
+          "name": "NombrePlanTarifario",
+          "type": "VARCHAR",
+          "default": "",
+          "check": "",
+          "primary": false,
+          "unique": false,
+          "notNull": true,
+          "increment": false,
+          "comment": "",
+          "size": 50
+        }
+      ],
+      "comment": "",
+      "indices": [],
+      "color": "#175e7a"
+    },
+    {
+      "id": "JyDNDIlXWxRLcWeD3X-5c",
+      "name": "Cargos",
+      "x": 272.9121666530564,
+      "y": -210.11319279668237,
+      "locked": false,
+      "fields": [
+        {
+          "name": "pk_CargoId",
+          "type": "INTEGER",
+          "default": "",
+          "check": "",
+          "primary": true,
+          "unique": true,
+          "notNull": true,
+          "increment": true,
+          "comment": "",
+          "id": "jUP9bQfN8loG5QTucK5b5"
+        },
+        {
+          "id": "JlHMZBwh_dviIB1DZUulY",
+          "name": "NombreCargo",
+          "type": "VARCHAR",
+          "default": "",
+          "check": "",
+          "primary": false,
+          "unique": false,
+          "notNull": true,
+          "increment": false,
+          "comment": "",
+          "size": 30
+        },
+        {
+          "id": "W_tyRipm4ObkcYVqmGFr_",
+          "name": "Importe",
+          "type": "DECIMAL",
+          "default": "",
+          "check": "",
+          "primary": false,
+          "unique": false,
+          "notNull": true,
+          "increment": false,
+          "comment": ""
+        }
+      ],
+      "comment": "",
+      "indices": [],
+      "color": "#175e7a"
+    },
+    {
+      "id": "V-pNkJRry_n7SgDGfJ-tO",
+      "name": "Extras",
+      "x": 347.4574838033541,
+      "y": 60.96912037761081,
+      "locked": false,
+      "fields": [
+        {
+          "name": "pk_ExtraId",
+          "type": "INTEGER",
+          "default": "",
+          "check": "",
+          "primary": true,
+          "unique": true,
+          "notNull": true,
+          "increment": true,
+          "comment": "",
+          "id": "jUP9bQfN8loG5QTucK5b5"
+        },
+        {
+          "id": "JlHMZBwh_dviIB1DZUulY",
+          "name": "NombreExtra",
+          "type": "VARCHAR",
+          "default": "",
+          "check": "",
+          "primary": false,
+          "unique": false,
+          "notNull": true,
+          "increment": false,
+          "comment": "",
+          "size": 30
+        },
+        {
+          "id": "W_tyRipm4ObkcYVqmGFr_",
+          "name": "PrecioPordia",
+          "type": "DECIMAL",
+          "default": "",
+          "check": "",
+          "primary": false,
+          "unique": false,
+          "notNull": true,
+          "increment": false,
+          "comment": ""
+        }
+      ],
+      "comment": "",
+      "indices": [],
+      "color": "#175e7a"
+    },
+    {
+      "id": "opej8RQv1p3JK5gGDAup9",
+      "name": "Poblaciones",
+      "x": 730.0549075384732,
+      "y": -238.6846940290112,
+      "locked": false,
+      "fields": [
+        {
+          "name": "pk_CP",
+          "type": "VARCHAR",
+          "default": "",
+          "check": "",
+          "primary": true,
+          "unique": true,
+          "notNull": true,
+          "increment": false,
+          "comment": "",
+          "id": "_gAWt5dAWE2VsI4NZAYu7",
+          "size": 5
+        },
+        {
+          "id": "JypHnFtL20AJ6raf_DKTk",
+          "name": "Poblacion",
+          "type": "VARCHAR",
+          "default": "",
+          "check": "",
+          "primary": false,
+          "unique": false,
+          "notNull": true,
+          "increment": false,
+          "comment": "",
+          "size": 100
+        }
+      ],
+      "comment": "",
+      "indices": [],
+      "color": "#175e7a"
+    },
+    {
+      "id": "AgCeSB9-XSL-5hxiWTI1C",
+      "name": "Oficinas",
+      "x": 717.0680213777586,
+      "y": 86.85645529204515,
+      "locked": false,
+      "fields": [
+        {
+          "name": "pk_OficinaId",
+          "type": "INTEGER",
+          "default": "",
+          "check": "",
+          "primary": true,
+          "unique": true,
+          "notNull": true,
+          "increment": true,
+          "comment": "",
+          "id": "0AS3VpDDm-4d-97x9q1La"
+        },
+        {
+          "id": "bCVQY2d3QAqwaPAyDJsWu",
+          "name": "NombreOficina",
+          "type": "VARCHAR",
+          "default": "",
+          "check": "",
+          "primary": false,
+          "unique": false,
+          "notNull": true,
+          "increment": false,
+          "comment": "",
+          "size": 50
+        },
+        {
+          "id": "E_nTYCekN_dePuJ_T6hfj",
+          "name": "fk_CP",
+          "type": "VARCHAR",
+          "default": "",
+          "check": "",
+          "primary": false,
+          "unique": false,
+          "notNull": true,
+          "increment": false,
+          "comment": "",
+          "size": 5
+        }
+      ],
+      "comment": "",
+      "indices": [],
+      "color": "#175e7a"
+    },
+    {
+      "id": "Q_3MTgeL9vOvzgIoyW875",
+      "name": "Combustibles",
+      "x": 332.54363182919747,
+      "y": 615.9092362109827,
+      "locked": false,
+      "fields": [
+        {
+          "name": "pk_CombustibleId",
+          "type": "INTEGER",
+          "default": "",
+          "check": "",
+          "primary": true,
+          "unique": true,
+          "notNull": true,
+          "increment": true,
+          "comment": "",
+          "id": "R1NbEARK4dL_ScHMgX3wt"
+        },
+        {
+          "id": "UG97HQQWILYV4i4Txb8of",
+          "name": "NombreCombustible",
+          "type": "VARCHAR",
+          "default": "",
+          "check": "",
+          "primary": false,
+          "unique": false,
+          "notNull": true,
+          "increment": false,
+          "comment": "",
+          "size": 20
+        }
+      ],
+      "comment": "",
+      "indices": [],
+      "color": "#175e7a"
+    },
+    {
+      "id": "xY513Bd3_9Bhw1QMx3JhC",
+      "name": "Grupos",
+      "x": 337.8252073500306,
+      "y": 441.9698528404474,
+      "locked": false,
+      "fields": [
+        {
+          "name": "pk_GrupoId",
+          "type": "INTEGER",
+          "default": "",
+          "check": "",
+          "primary": true,
+          "unique": true,
+          "notNull": true,
+          "increment": true,
+          "comment": "",
+          "id": "R1NbEARK4dL_ScHMgX3wt"
+        },
+        {
+          "id": "UG97HQQWILYV4i4Txb8of",
+          "name": "NombreGrupo",
+          "type": "VARCHAR",
+          "default": "",
+          "check": "",
+          "primary": false,
+          "unique": false,
+          "notNull": true,
+          "increment": false,
+          "comment": "",
+          "size": 20
+        }
+      ],
+      "comment": "",
+      "indices": [],
+      "color": "#175e7a"
+    },
+    {
+      "id": "DlJ_scy3GVFmPRrZPAB38",
+      "name": "Marcas",
+      "x": 376.87253575404833,
+      "y": 269.7620077883639,
+      "locked": false,
+      "fields": [
+        {
+          "name": "pk_MarcaId",
+          "type": "INTEGER",
+          "default": "",
+          "check": "",
+          "primary": true,
+          "unique": true,
+          "notNull": true,
+          "increment": true,
+          "comment": "",
+          "id": "R1NbEARK4dL_ScHMgX3wt"
+        },
+        {
+          "id": "UG97HQQWILYV4i4Txb8of",
+          "name": "NombreMarca",
+          "type": "VARCHAR",
+          "default": "",
+          "check": "",
+          "primary": false,
+          "unique": false,
+          "notNull": true,
+          "increment": false,
+          "comment": "",
+          "size": 20
+        }
+      ],
+      "comment": "",
+      "indices": [],
+      "color": "#175e7a"
+    },
+    {
+      "id": "D8egT2s5Qno3I9WEZITyf",
+      "name": "Modelos",
+      "x": -207.60732971971152,
+      "y": 321.4885295572982,
+      "locked": false,
+      "fields": [
+        {
+          "name": "pk_ModeloId",
+          "type": "INTEGER",
+          "default": "",
+          "check": "",
+          "primary": true,
+          "unique": true,
+          "notNull": true,
+          "increment": true,
+          "comment": "",
+          "id": "WIFWbfzMtatdCjqShPAzT"
+        },
+        {
+          "id": "isblNkh_V_EhVG7YU_Ee8",
+          "name": "NombreModelo",
+          "type": "VARCHAR",
+          "default": "",
+          "check": "",
+          "primary": false,
+          "unique": false,
+          "notNull": true,
+          "increment": false,
+          "comment": "",
+          "size": 60
+        },
+        {
+          "id": "dzLnqtKVFgjqHWXFiyIOJ",
+          "name": "fk_MarcaId",
+          "type": "INTEGER",
+          "default": "",
+          "check": "",
+          "primary": false,
+          "unique": false,
+          "notNull": true,
+          "increment": false,
+          "comment": "",
+          "size": "",
+          "values": []
+        },
+        {
+          "id": "aXYmq-SqsAUjV8jG11asC",
+          "name": "fk_GrupoId",
+          "type": "INTEGER",
+          "default": "",
+          "check": "",
+          "primary": false,
+          "unique": false,
+          "notNull": true,
+          "increment": false,
+          "comment": "",
+          "size": "",
+          "values": []
+        },
+        {
+          "id": "Ue4c9bhOmeoYg2Xv7vQ1n",
+          "name": "fk_CombustibleId",
+          "type": "INTEGER",
+          "default": "",
+          "check": "",
+          "primary": false,
+          "unique": false,
+          "notNull": true,
+          "increment": false,
+          "comment": "",
+          "size": "",
+          "values": []
+        }
+      ],
+      "comment": "",
+      "indices": [],
+      "color": "#175e7a"
+    }
+  ],
+  "relationships": [
+    {
+      "startTableId": "opej8RQv1p3JK5gGDAup9",
+      "startFieldId": "_gAWt5dAWE2VsI4NZAYu7",
+      "endTableId": "AgCeSB9-XSL-5hxiWTI1C",
+      "endFieldId": "E_nTYCekN_dePuJ_T6hfj",
+      "cardinality": "one_to_many",
+      "updateConstraint": "No action",
+      "deleteConstraint": "No action",
+      "name": "fk_Poblaciones_pk_CP_Oficinas",
+      "id": "-q7r8L-eqxde-kjucPH5a"
+    },
+    {
+      "startTableId": "DlJ_scy3GVFmPRrZPAB38",
+      "startFieldId": "R1NbEARK4dL_ScHMgX3wt",
+      "endTableId": "D8egT2s5Qno3I9WEZITyf",
+      "endFieldId": "dzLnqtKVFgjqHWXFiyIOJ",
+      "cardinality": "one_to_many",
+      "updateConstraint": "No action",
+      "deleteConstraint": "No action",
+      "name": "fk_Marcas_pk_MarcaId_Modelos",
+      "id": "iHll-GpIcqyEKeFm2MWIM"
+    },
+    {
+      "startTableId": "xY513Bd3_9Bhw1QMx3JhC",
+      "startFieldId": "R1NbEARK4dL_ScHMgX3wt",
+      "endTableId": "D8egT2s5Qno3I9WEZITyf",
+      "endFieldId": "aXYmq-SqsAUjV8jG11asC",
+      "cardinality": "one_to_many",
+      "updateConstraint": "No action",
+      "deleteConstraint": "No action",
+      "name": "fk_Grupos_pk_GrupoId_Modelos",
+      "id": "HAEZ0YTDBVESNwSdtz5ko"
+    },
+    {
+      "startTableId": "Q_3MTgeL9vOvzgIoyW875",
+      "startFieldId": "R1NbEARK4dL_ScHMgX3wt",
+      "endTableId": "D8egT2s5Qno3I9WEZITyf",
+      "endFieldId": "Ue4c9bhOmeoYg2Xv7vQ1n",
+      "cardinality": "one_to_many",
+      "updateConstraint": "No action",
+      "deleteConstraint": "No action",
+      "name": "fk_Combustibles_pk_CombustibleId_Modelos",
+      "id": "9bdH6jYLnDnRJMedNQWc9"
+    }
+  ],
+  "notes": [],
+  "subjectAreas": [],
+  "database": "mysql",
+  "title": "UcademyReservas"
+}
