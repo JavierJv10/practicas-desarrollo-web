@@ -1,62 +1,89 @@
-# 💻 Portafolio de Desarrollo Web y Multiplataforma | Javier
+<div align="center">
 
-¡Hola! Soy estudiante de Desarrollo de Aplicaciones Web (DAW) a punto de comenzar el segundo curso. Aporto una mentalidad disciplinada, orientada al alto rendimiento y al trabajo en equipo, habilidades que aplico para construir código limpio, eficiente y escalable. 
+# Javier JV · Desarrollo Web & Multiplataforma
 
-En este repositorio recopilo mis proyectos prácticos y evaluables, demostrando mi evolución tanto en el desarrollo Frontend (HTML, CSS, JavaScript) como en el Backend y la lógica de programación pura (Java, MySQL, POO, MVC).
+[![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)](https://developer.mozilla.org/es/docs/Web/HTML)
+[![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)](https://developer.mozilla.org/es/docs/Web/CSS)
+[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)](https://developer.mozilla.org/es/docs/Web/JavaScript)
+[![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)](https://www.java.com/)
+[![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)](https://www.mysql.com/)
+[![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)](https://git-scm.com/)
+
+**Estudiante de DAW (2º curso) · Frontend & Backend · En búsqueda de prácticas**
+
+</div>
 
 ---
 
-## 📂 Índice de Proyectos Destacados
+## Sobre mí
 
-### 1. 🌍 Página Web Turística (Lillo)
-* **Descripción:** Proyecto de maquetación web enfocada en la promoción turística local (Laguna de Lillo, etc.).
-* **Tecnologías:** HTML5, CSS3.
-* **Características:** Estructuración semántica del contenido, diseño visual atractivo y aplicación de estilos en cascada para la presentación de información y galerías.
+Estudiante de Desarrollo de Aplicaciones Web con mentalidad orientada al alto rendimiento y el trabajo en equipo. Me apasiona escribir código limpio, estructurado y escalable, aplicando patrones de arquitectura reales desde el primer año.
 
-### 2. 📅 Gestor Dinámico de Eventos
-* **Descripción:** Aplicación interactiva para la gestión y visualización de eventos.
-* **Tecnologías:** HTML, CSS, JavaScript.
-* **Características:** Manipulación del DOM en tiempo real y gestión de eventos del usuario a través de JavaScript.
+Este repositorio recoge mis proyectos prácticos y evaluables, mostrando mi evolución tanto en **Frontend** (HTML, CSS, JavaScript) como en **Backend** y lógica de programación (Java, MySQL, POO, MVC).
 
-### 3. 🎓 Sistema de Gestión Académica
-* **Descripción:** Sistema de administración escolar con lógica avanzada en el lado del cliente.
-* **Tecnologías:** JavaScript.
-* **Características:** Uso de estructuras de datos en JavaScript para simular la matriculación, gestión de alumnos y asignaturas.
+---
 
-### 4. 📝 Validación Avanzada de Formularios
-* **Descripción:** Implementación de validación de datos estricta en el lado del cliente (Frontend).
-* **Tecnologías:** JavaScript, HTML, CSS.
-* **Características:** Uso de expresiones regulares (RegEx) para validar correos y formatos de texto, cálculo dinámico de fechas para verificar mayoría de edad, manipulación del DOM para inyectar feedback visual, y control del flujo de envío (`preventDefault`).
+## 📂 Proyectos
 
-### 5. 🗄️ Gestión de Clientes (Java MVC + JDBC + MySQL)
-* **Descripción:** Aplicación de escritorio y consola para la gestión de clientes (CRUD completo) conectada a una base de datos relacional.
-* **Tecnologías:** Java (Swing), JDBC, MySQL.
-* **Características:** Arquitectura **MVC** (Modelo-Vista-Controlador), acceso a datos mediante el patrón **Repository**, validación en la capa de servicio (`ClienteService`), y doble interfaz de usuario (consola y gráfica con Swing).
+### 🌐 Frontend
 
-### 6. 📦 Colecciones y Operaciones CRUD (Java)
-* **Descripción:** Programa backend en Java para la gestión de una lista dinámica de alumnos.
-* **Tecnologías:** Java (Estructuras de Datos).
-* **Características:** Uso de la clase `ArrayList` para almacenar datos dinámicamente. Implementación completa de las operaciones CRUD (Create, Read, Update, Delete) y uso de la utilidad `Collections` para ordenación.
+| Proyecto | Descripción | Tecnologías |
+|---|---|---|
+| [🌍 Web Turística — Lillo](./01-web-turistica-lillo/) | Maquetación web para la promoción turística local (Laguna de Lillo). Estructura semántica y diseño visual con galerías. | HTML5 · CSS3 |
+| [📅 Gestor de Eventos](./02-gestor-eventos/) | App interactiva para gestionar y visualizar eventos. Manipulación del DOM en tiempo real. | HTML · CSS · JavaScript |
+| [📝 Validación de Formularios](./03-validacion-formularios/) | Validación estricta en el cliente: RegEx para correos y textos, cálculo dinámico de edad, feedback visual inyectado en el DOM. | JavaScript · HTML · CSS |
 
-### 7. 🧬 Arquitectura POO: Ecosistema y Taxonomía (Java)
-* **Descripción:** Modelado complejo de un ecosistema animal aplicando principios avanzados de diseño orientado a objetos.
-* **Tecnologías:** Java (POO Avanzada).
-* **Características:** Uso intensivo de **clases abstractas** para definir taxonomías biológicas y segregación de **interfaces** modulares (`IDesplazamientoAereo`, `IEntrenable`). Implementación de herencia múltiple simulada, polimorfismo y sobrescritura de métodos.
+### ☕ Backend — Java
 
-### 8. 📄 Manejo de Ficheros (I/O) en Java
-* **Descripción:** Aplicación backend para la lectura, escritura y manipulación persistente de archivos de texto.
-* **Tecnologías:** Java (API java.io).
-* **Características:** Uso de flujos de entrada/salida (Streams) con `BufferedReader` y `BufferedWriter` para un procesamiento eficiente. Gestión estructurada de excepciones y cierre seguro de recursos.
-
-### 9. 🧮 Calculadora Modular e Interfaces (Java)
-* **Descripción:** Calculadora interactiva con abstracción de la capa de presentación.
-* **Tecnologías:** Java (Swing, Scanner).
-* **Características:** Uso de estructuras de control de flujo (`do-while`, `switch`). Separación de responsabilidades aislando la lógica matemática de la entrada/salida de datos mediante la clase auxiliar `InterfazUsuario`, capaz de renderizar ventanas modales (`JOptionPane`) o texto en consola dinámicamente.
+| Proyecto | Descripción | Tecnologías |
+|---|---|---|
+| [🗄️ Gestión de Clientes](./04-gestion-clientes-java/) | CRUD completo con doble interfaz (consola + Swing). Arquitectura **MVC**, patrón **Repository** y validación en capa de servicio. | Java · JDBC · MySQL · Swing |
+| [🎓 Sistema de Gestión Académica](./05-gestion-academica/) | Simulación de un sistema escolar: matriculación, alumnos y asignaturas gestionadas con estructuras de datos en JavaScript. | JavaScript |
+| [📦 Colecciones y CRUD](./06-colecciones-crud-java/) | Gestión dinámica de alumnos con `ArrayList`. CRUD completo y ordenación mediante `Collections`. | Java |
+| [🧬 POO Avanzada — Ecosistema Animal](./07-poo-ecosistema/) | Modelado de un ecosistema con clases abstractas, interfaces modulares (`IDesplazamientoAereo`, `IEntrenable`) y polimorfismo. | Java (POO) |
+| [📄 Manejo de Ficheros I/O](./08-ficheros-io-java/) | Lectura, escritura y manipulación de archivos con `BufferedReader`/`BufferedWriter`, gestión de excepciones y cierre seguro de recursos. | Java (java.io) |
+| [🧮 Calculadora Modular](./09-calculadora-modular/) | Calculadora con lógica matemática desacoplada de la UI. Capaz de renderizar consola o ventanas modales (`JOptionPane`) dinámicamente. | Java · Swing |
 
 ---
 
 ## 🛠️ Stack Tecnológico
-* **Frontend:** HTML5, CSS3, JavaScript (ES6+).
-* **Backend:** Java (JDK), Programación Orientada a Objetos, Colecciones, API I/O.
-* **Bases de Datos:** MySQL, JDBC.
-* **Herramientas y Arquitectura:** Git, GitHub, Patrón MVC, Patrón DAO/Repository.
+
+```
+Frontend   →  HTML5 · CSS3 · JavaScript ES6+
+Backend    →  Java (JDK) · POO · Colecciones · API I/O
+Base datos →  MySQL · JDBC
+Dev Tools  →  Git · GitHub · MVC · DAO/Repository
+```
+
+---
+
+## 📁 Estructura del Repositorio
+
+```
+practicas-desarrollo-web/
+├── 01-web-turistica-lillo/
+├── 02-gestor-eventos/
+├── 03-validacion-formularios/
+├── 04-gestion-clientes-java/
+├── 05-gestion-academica/
+├── 06-colecciones-crud-java/
+├── 07-poo-ecosistema/
+├── 08-ficheros-io-java/
+├── 09-calculadora-modular/
+└── README.md
+```
+
+---
+
+## 📬 Contacto
+
+¿Tienes una oportunidad de prácticas o quieres ponerte en contacto?
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/TU-PERFIL)
+[![Email](https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:TU-EMAIL@gmail.com)
+
+---
+
+<div align="center">
+<sub>⭐ Si algún proyecto te resulta útil, ¡una estrella siempre se agradece!</sub>
+</div>
