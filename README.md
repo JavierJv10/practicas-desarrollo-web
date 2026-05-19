@@ -17,6 +17,10 @@
 
 ---
 
+### 📧 Contacto
+[![](https://img.shields.io/badge/Email-javier.jimenovillarreal@gmail.com-blue?logo=gmail)](mailto:javier.jimenovillarreal@gmail.com)
+[![](https://img.shields.io/badge/LinkedIn-Javier_Jimeno_Villarreal-blue?logo=linkedin)](https://www.linkedin.com/in/javier-jimeno-villarreal-12babb3aa)
+
 ## Sobre mí
 
 Estudiante de Desarrollo de Aplicaciones Web con mentalidad orientada al alto rendimiento y el trabajo en equipo. Me apasiona escribir código limpio, estructurado y escalable, aplicando patrones de arquitectura reales desde el primer año.
