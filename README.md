@@ -44,3 +44,21 @@ Este repositorio recoge mis proyectos prácticos y evaluables, mostrando mi evol
 ---
 
 ## 🛠️ Stack Tecnológico
+
+**Frontend & Web**
+* **Lenguajes:** HTML5, CSS3, JavaScript (ES6+)
+* **Conceptos:** DOM, Diseño Responsive, Semántica Web
+
+**Backend & Lógica**
+* **Lenguajes:** Java (JDK)
+* **Arquitectura:** Programación Orientada a Objetos (POO), MVC, DAO/Repository
+* **Utilidades:** Colecciones, Gestión de I/O, Excepciones
+
+**Bases de Datos**
+* **Relacionales:** MySQL (DDL/DML/DCL), JDBC
+* **NoSQL:** Modelado Documental (JSON)
+* **Administración:** Diseño ER, Seguridad y Permisos (DBA)
+
+**Entorno de Desarrollo**
+* **Control de versiones:** Git, GitHub
+* **Metodologías:** Modelado de sistemas, Patrones de diseño
