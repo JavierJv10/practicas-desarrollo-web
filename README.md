@@ -6,6 +6,7 @@
 [![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)](https://developer.mozilla.org/es/docs/Web/CSS)
 [![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)](https://developer.mozilla.org/es/docs/Web/JavaScript)
 [![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)](https://www.java.com/)
+[![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)](https://www.python.org/)
 [![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)](https://www.mysql.com/)
 [![Bash](https://img.shields.io/badge/GNU_Bash-4EAA25?style=flat-square&logo=gnu-bash&logoColor=white)](https://www.gnu.org/software/bash/)
 [![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)](https://git-scm.com/)
@@ -39,6 +40,8 @@ Este repositorio recoge mis proyectos prácticos y evaluables, mostrando mi evol
 | [🍃 Modelado NoSQL](./NoSQL-Modelado-Documental-JSON/) | Diseño de estructuras documentales (JSON) para sistemas de reservas y redes sociales. | JSON · NoSQL |
 | [🏗️ Gestión de Proyectos](./SQL-Sistema-Gestion-Proyectos/) | Sistema completo de gestión: diseño ER, scripts DDL y DML para empleados, equipos y tareas. | SQL (DDL/DML) |
 | [📊 Consultas Avanzadas & DBA](./SQL-Consultas-Avanzadas-y-DBA/) | Batería de 100 queries complejas (JOINs/HAVING) y administración de seguridad (roles/GRANT). | SQL (DML/DCL) |
+| [🎮 Space Invaders](./01-python-space-invaders/) | Implementación del clásico arcade con lógica de colisiones, bucle de juego y gestión de estados. | Python · Pygame |
+| [📓 Gestor de Notas](./02-python-gestor-notas/) | Aplicación de consola para la persistencia de datos (CRUD) con manejo de archivos y excepciones. | Python · File I/O |
 
 *(... mantén aquí el resto de tus proyectos Java y Python ...)*
 
@@ -48,12 +51,11 @@ Este repositorio recoge mis proyectos prácticos y evaluables, mostrando mi evol
 
 **Frontend & Web**
 * **Lenguajes:** HTML5, CSS3, JavaScript (ES6+)
-* **Conceptos:** DOM, Diseño Responsive, Semántica Web
 
 **Backend & Lógica**
-* **Lenguajes:** Java (JDK)
-* **Arquitectura:** Programación Orientada a Objetos (POO), MVC, DAO/Repository
-* **Utilidades:** Colecciones, Gestión de I/O, Excepciones
+* **Lenguajes:** Java (JDK), Python
+* **Arquitectura:** POO, MVC, Patrones de diseño
+* **Utilidades:** Colecciones, Gestión de I/O, Pygame
 
 **Bases de Datos**
 * **Relacionales:** MySQL (DDL/DML/DCL), JDBC
@@ -62,4 +64,5 @@ Este repositorio recoge mis proyectos prácticos y evaluables, mostrando mi evol
 
 **Entorno de Desarrollo**
 * **Control de versiones:** Git, GitHub
-* **Metodologías:** Modelado de sistemas, Patrones de diseño
+* **Terminal:** Bash (Scripts de automatización y análisis)
+  
