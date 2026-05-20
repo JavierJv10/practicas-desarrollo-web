@@ -1,94 +1,110 @@
 <div align="center">
 
-# Javier JV · Desarrollo Web & Multiplataforma
+# 📚 Prácticas · Desarrollo de Aplicaciones Web
 
-[![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)](https://developer.mozilla.org/es/docs/Web/HTML)
-[![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)](https://developer.mozilla.org/es/docs/Web/CSS)
-[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)](https://developer.mozilla.org/es/docs/Web/JavaScript)
-[![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)](https://www.java.com/)
-[![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)](https://www.python.org/)
-[![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)](https://www.mysql.com/)
-[![Bash](https://img.shields.io/badge/GNU_Bash-4EAA25?style=flat-square&logo=gnu-bash&logoColor=white)](https://www.gnu.org/software/bash/)
-[![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)](https://git-scm.com/)
+### Javier Jimeno Villarreal · 2º DAW
 
-**Estudiante de DAW (2º curso) · Frontend & Backend · En búsqueda de prácticas**
+[![GitHub](https://img.shields.io/badge/GitHub-Repositorio_de_Prácticas-black?style=for-the-badge&logo=github)](https://github.com/JavierJv10/practicas-desarrollo-web)
+[![Portfolio](https://img.shields.io/badge/Portafolio-JavierJv10-blue?style=for-the-badge&logo=github)](https://github.com/JavierJv10)
+[![Web](https://img.shields.io/badge/GitHub_Pages-Ver_en_Vivo-green?style=for-the-badge&logo=githubpages)](https://javierjv10.github.io/practicas-desarrollo-web/)
+
+![Java](https://img.shields.io/badge/Java-69.6%25-orange?style=flat-square&logo=openjdk)
+![JavaScript](https://img.shields.io/badge/JavaScript-13.8%25-yellow?style=flat-square&logo=javascript)
+![HTML](https://img.shields.io/badge/HTML-5.1%25-red?style=flat-square&logo=html5)
+![Python](https://img.shields.io/badge/Python-4.9%25-blue?style=flat-square&logo=python)
+![CSS](https://img.shields.io/badge/CSS-3.9%25-purple?style=flat-square&logo=css3)
+![Caparazón](https://img.shields.io/badge/Bash-2.7%25-gray?style=flat-square&logo=gnubash)
 
 </div>
 
 ---
 
-### 📧 Contacto
-[![](https://img.shields.io/badge/Email-javier.jimenovillarreal@gmail.com-blue?logo=gmail)](mailto:javier.jimenovillarreal@gmail.com)
-[![](https://img.shields.io/badge/LinkedIn-Javier_Jimeno_Villarreal-blue?logo=linkedin)](https://www.linkedin.com/in/javier-jimeno-villarreal-12babb3aa)
+## 📝 Descripción
 
-## Sobre mí
+Recopilación de **prácticas, webs y ejercicios de programación** desarrollados durante el 2º curso del ciclo formativo de **Desarrollo de Aplicaciones Web (DAW)**. Abarca desde frontend y lógica de negocio hasta bases de datos, automatización con Bash y arquitectura de software.
 
-Estudiante de Desarrollo de Aplicaciones Web con mentalidad orientada al alto rendimiento y el trabajo en equipo. Me apasiona escribir código limpio, estructurado y escalable, aplicando patrones de arquitectura reales desde el primer año.
-
-Este repositorio recoge mis proyectos prácticos y evaluables, mostrando mi evolución tanto en **Frontend** como en **Backend, Bases de Datos y Administración de sistemas**.
+> 💼 Para una presentación profesional de mi perfil, visita mi [Portafolio Principal](https://github.com/JavierJv10).
 
 ---
 
-### 🎓 Formación Académica
-* **Técnico Superior en Desarrollo de Aplicaciones Web (DAW)** | *En curso (2º año)*
-* **TSEAS (Técnico Superior en Enseñanza y Animación Sociodeportiva)**
+## 📂 Proyectos
 
----
+### 🌐 Web & Frontend
 
-### 🛠️ Proyectos Destacados
-*Selección de proyectos que demuestran mi capacidad para resolver problemas reales.*
-
-| Proyecto | Descripción | Tecnologías |
+| Carpeta | Descripción | Stack |
 | :--- | :--- | :--- |
-| **[Gestor de Eventos](https://javierjv10.github.io/practicas-desarrollo-web/gestor-eventos/index.html)** | App interactiva con manipulación de DOM en tiempo real. | JS, HTML, CSS |
-| **[Space Invaders](https://e4dcf41b-d4a8-4d04-b644-20c7ef25f0cc-00-u72xa9oq4uo9.picard.replit.dev/)** | Clon arcade con lógica de colisiones y estados. | Python, Pygame |
-| **[Web Lillo](https://javierjv10.github.io/practicas-desarrollo-web/Web-Lillo/puebloLillo.html)** | Maquetación web con enfoque en experiencia de usuario. | HTML5, CSS3 |
+| `Web-Lillo` | Proyecto web estructurado en carpeta organizada | HTML5 · CSS3 |
+| `gestor-eventos` | Gestor Dinámico de Eventos | JS · DOM |
+| `validación-formularios` | Validación avanzada de formularios | JavaScript |
+| `Gestión-Academica-JS` | Sistema de gestión académica con lógica JS avanzada | JavaScript |
+
+### ☕ Java
+
+| Carpeta | Descripción | Stack |
+| :--- | :--- | :--- |
+| `Java-Calculadora-Menu` | Calculadora Modular con selector de interfaz | Java |
+| `Java-Colecciones-CRUD` | Práctica de colecciones (ArrayList) y operaciones CRUD | Java |
+| `Java-Ficheros-Texto` | Manejo de ficheros de texto (I/O) | Java |
+| `Java-MVC-MySQL` | Proyecto Java MVC con conexión a MySQL (JDBC) | Java · MySQL |
+| `Java-POO-Avanzado` | POO avanzada: Taxonomía y Ecosistema | Java |
+| `Java-Refactorización-CódigoLimpio` | Refactorización y principios Clean Code | Java |
+| `Pruebas de Java` | Testing y QA: Pruebas Unitarias de Caja Blanca | Java · JUnit |
+
+### 🗄️ Bases de Datos
+
+| Carpeta | Descripción | Stack |
+| :--- | :--- | :--- |
+| `SQL-Consultas-Avanzadas-y-DBA` | Batería de 100 consultas SQL y administración de seguridad | SQL |
+| `SQL-Diseño-Tienda-y-Hospital` | Esquemas DDL y diagramas ER de BBDD Relacionales | SQL (DDL/DML) |
+| `SQL-Sistema-Gestión-Proyectos` | Proyecto integral de Gestión de Proyectos corporativos | SQL |
+| `NoSQL-Modelado-Documental-JSON` | Estructuras de datos y modelado documental | JSON · NoSQL |
+
+### 🐍 Python
+
+| Carpeta | Descripción | Stack |
+| :--- | :--- | :--- |
+| `Python-Space-Invaders` | Clon del clásico arcade Space Invaders | Python · Pygame |
+| `Notas del gestor de Python` | Gestor de Notas interactivas por terminal (CLI) | Python |
+
+### 🖥️ Bash & CLI
+
+| Carpeta | Descripción | Stack |
+| :--- | :--- | :--- |
+| `Análisis de Bash Rojo` | Herramienta CLI para Análisis de Redes y Ciberseguridad | Bash |
+| `Bash-Cajero-Automático` | Simulador de Cajero Automático mediante Scripting | Bash |
+| `Bash-Generador-Contraseñas` | Herramienta CLI para Generación Avanzada de Contraseñas | Bash |
+| `Bash-Piedra-Papel-Tijera` | Minijuego Piedra, Papel o Tijera interactivo | Bash |
+
+### 🏗️ Arquitectura & Diseño
+
+| Carpeta | Descripción | Stack |
+| :--- | :--- | :--- |
+| `UML-Diseño-Logística` | Arquitectura y Diseño de Software: Diagrama de Clases | UML |
 
 ---
 
-### 📂 Repositorio de Prácticas (DAW)
-*Recopilación de ejercicios académicos realizados durante mi formación:*
+## ⚙️ Objetivos del Repositorio
 
-* **Bases de Datos & Backend:** SQL (DDL/DML/DCL), Modelado NoSQL (JSON), Java (MVC, POO, Colecciones).
-* **Desarrollo Frontend:** Validación de formularios, JS Avanzado.
-* **Automatización:** Scripts de análisis de redes y ciberseguridad (Bash).
-
-### 🌐 Frontend
-| Proyecto | Descripción | Tecnologías |
-|---|---|---|
-| [🌍 Web Turística — Lillo](https://javierjv02.github.io/NOMBRE-TU-REPOSITORIO/) | Maquetación web para la promoción turística local. Estructura semántica y diseño visual. | HTML5 · CSS3 |
-| [📅 Gestor de Eventos](./02-gestor-eventos/) | App interactiva para gestionar eventos. Manipulación del DOM en tiempo real. | HTML · CSS · JS |
-
-### 🗄️ Bases de Datos & Backend
-| Proyecto | Descripción | Tecnologías |
-|---|---|---|
-| [🗄️ Diseño Relacional](./SQL-Diseno-Tienda-y-Hospital/) | Arquitectura y normalización de esquemas para comercio electrónico y gestión hospitalaria. | SQL (DDL) |
-| [🍃 Modelado NoSQL](./NoSQL-Modelado-Documental-JSON/) | Diseño de estructuras documentales (JSON) para sistemas de reservas y redes sociales. | JSON · NoSQL |
-| [🏗️ Gestión de Proyectos](./SQL-Sistema-Gestion-Proyectos/) | Sistema completo de gestión: diseño ER, scripts DDL y DML para empleados, equipos y tareas. | SQL (DDL/DML) |
-| [📊 Consultas Avanzadas & DBA](./SQL-Consultas-Avanzadas-y-DBA/) | Batería de 100 queries complejas (JOINs/HAVING) y administración de seguridad (roles/GRANT). | SQL (DML/DCL) |
-| [🎮 Space Invaders](./01-python-space-invaders/) | Implementación del clásico arcade con lógica de colisiones, bucle de juego y gestión de estados. | Python · Pygame |
-| [📓 Gestor de Notas](./02-python-gestor-notas/) | Aplicación de consola para la persistencia de datos (CRUD) con manejo de archivos y excepciones. | Python · File I/O |
-
-*(... mantén aquí el resto de tus proyectos Java y Python ...)*
+- 📌 **Histórico académico:** control de versiones de todas las entregas del ciclo.
+- 🔍 **Revisión técnica:** código fuente completo y accesible.
+- 🧰 **Referencia personal:** consulta rápida de patrones, arquitecturas y scripts.
+- 🚀 **Muestra profesional:** evidencia práctica de competencias adquiridas.
 
 ---
 
-## 🛠️ Stack Tecnológico
+## 🛠️ Tecnologías del Ciclo
 
-**Frontend & Web**
-* **Lenguajes:** HTML5, CSS3, JavaScript (ES6+)
+| Área | Tecnologías |
+| :--- | :--- |
+| Frontend | HTML5, CSS3, JavaScript (ES6+) |
+| Backend | Java (MVC, JDBC), Python |
+| Bases de datos | MySQL, SQL avanzado, JSON/NoSQL |
+| Automatización | GNU Bash, CLI scripting |
+| Diseño software | UML, Clean Code, Testing |
+| Herramientas | Git, GitHub, GitHub Pages |
 
-**Backend & Lógica**
-* **Lenguajes:** Java (JDK), Python
-* **Arquitectura:** POO, MVC, Patrones de diseño
-* **Utilidades:** Colecciones, Gestión de I/O, Pygame
+---
 
-**Bases de Datos**
-* **Relacionales:** MySQL (DDL/DML/DCL), JDBC
-* **NoSQL:** Modelado Documental (JSON)
-* **Administración:** Diseño ER, Seguridad y Permisos (DBA)
-
-**Entorno de Desarrollo**
-* **Control de versiones:** Git, GitHub
-* **Terminal:** Bash (Scripts de automatización y análisis)
-  
+<div align="center">
+  <sub>Desarrollado con ❤️ por <strong>Javier Jimeno Villarreal</strong> · DAW 2º curso · En búsqueda de prácticas</sub>
+</div>
